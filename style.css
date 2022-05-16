@@ -1,0 +1,47 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    margin: 0;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.topSection h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+}
+
+span{
+    color: #FFAD5A;
+}
+
+a{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.topSection a{
+    display: inline-block;
+    margin-bottom: 33px;
+}
+
+.half-width img{
+    width: 80%;
+    height: 80%;
+}
+
+.xCenter{
+    display: flex;
+    justify-content: center;
+}
