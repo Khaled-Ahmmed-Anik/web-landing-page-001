@@ -116,3 +116,32 @@ a{
     background-size: 227px 227px;
     background-position: right bottom;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+
+}
+
+footer h1{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
