@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 section{
@@ -17,6 +18,8 @@ section{
 .topSection h1{
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
+    border-left: 7px solid #FF5959;
+    padding-left: 10px ;
 }
 
 span{
@@ -25,14 +28,15 @@ span{
 
 a{
     text-decoration: none;
+    display: inline-block;
     background-color: #FF5959;
     color: white;
     padding: 12px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 .topSection a{
-    display: inline-block;
     margin-bottom: 33px;
 }
 
@@ -44,4 +48,68 @@ a{
 .xCenter{
     display: flex;
     justify-content: center;
+}
+
+
+.section-title{
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+}
+
+.one-third-width{
+    width: 33%; 
+    border-radius: 10px;
+    padding: 20px;
+    margin: 1.5%;
+}
+
+.mission-1{
+    background-color: #4f9da62f;
+}
+
+.mission-2{
+    background-color: #ff59593b;
+}
+
+.mission-3{
+    background-color: #fff4d691;
+}
+
+
+.misson-sectioin img{
+    height: 141px;
+    width: 141px;
+}
+
+
+.smaller-half{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.section-3 {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat; 
+    background-size: 227px 227px;
+    background-position: left center;
+}
+.smaller-half img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.large-half{
+    width: 50%;
+    padding: 50px;
+}
+
+
+.section-4 {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat; 
+    background-size: 227px 227px;
+    background-position: right bottom;
 }
